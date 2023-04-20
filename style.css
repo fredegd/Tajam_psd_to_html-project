@@ -2,8 +2,22 @@
     margin: 0
 }
 
+.top-section {
+background-image: url(./images/design-assets/bgk-header.png);
+background-repeat: no-repeat;
+height: 600px;
+}
+
 nav{
-    color: red;
+    color: white;
+}
+nav a{
+    color: white;
+
+}
+
+nav li :active{
+    color: #00e0d0;
 }
 
 #hero-section{
