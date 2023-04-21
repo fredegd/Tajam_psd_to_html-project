@@ -3,6 +3,117 @@
     margin: 0; 
     padding: 0; 
 }
+/* ///////////
+NAVIGATION BAR
+/////////////*/
+.nav {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.nav:link {
+  text-decoration: none;
+}
+
+.nav-left {
+  /* border: 2px solid orange; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+.nav-left a {
+  height: 100%;
+  text-decoration: none;
+}
+.nav-left span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  color: #00e0d0;
+}
+
+.nav-right {
+  /* border: 2px solid green; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1vw;
+  width: 80%;
+  align-items: center;
+}
+
+.nav-ul {
+  /* border: 2px solid yellow; */
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  width: 80%;
+}
+
+.nav li {
+  text-decoration: none;
+  justify-content: space-around;
+}
+
+nav a {
+  /* border: 2px solid yellow; */
+  padding: 8px;
+  color: white;
+  text-decoration: none;
+}
+
+nav li :hover {
+  color: #ffffff;
+  background-color: #00e0d0;
+}
+
+nav li :active {
+  color: #00e0d0;
+}
+
+/* ///////////
+----HERO------
+/////////////*/
+
+#hero-section {
+  position: absolute;
+  top: 130px;
+  /* border: 2px solid yellow; */
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero-section .text {
+  /* border: 2px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+#hero-section .text h2 {
+  font-size: 1.5em;
+  font-family: "Times New Roman", Times, serif;
+}
+#hero-section .text p {
+  font-size: 0.8em;
+  font-family: arial;
+  font-weight: lighter;
+}
+
+.line{
+  border: none;
+  height: 1px;
+  width: 10%;
+  background-color: #00e0d0;
+  margin: 15px;
+}
+
 .text .button {
   background-color: none;
   border: 1px solid #00e0d0;
@@ -15,6 +126,18 @@
   font-size: 0.8vw;
   margin: 40px;
   width: 10%;
+}
+
+.text .button:hover {
+  background-color: #00e0d0;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+
+
+
+
 
 
 
@@ -81,24 +204,8 @@
     color: darkred;
 }
 
-
-
-
-
-#team-section {
-  color: yellowgreen;
-}
-#contact_client-section {
-  color: lightsalmon;
-}
-footer {
-  color: blueviolet;
-}
-  
-footer{
-    color: blueviolet;
-}
-#watch-section > h3 {
+    
+    #watch-section > h3 {
     position: absolute;
     justify-content: space-around;
     color: white;
@@ -123,10 +230,7 @@ footer{
     
   }
 
-
-  
-  
-  
+    
   /* //////////////
 ----EXPERTISE------
 ///////////////*/
@@ -247,4 +351,21 @@ footer{
   /* border: 2px solid olive; */
   height: 2rem;
   margin: 10% 10%;
+}
+
+
+
+
+#team-section {
+  color: yellowgreen;
+}
+#contact_client-section {
+  color: lightsalmon;
+}
+footer {
+  color: blueviolet;
+}
+  
+footer{
+    color: blueviolet;
 }
