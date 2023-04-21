@@ -134,17 +134,6 @@ nav li :active {
   color: #ffffff;
 }
 
-
-
-
-
-
-
-
-
-#our_story-section{
-    color:green;
-    text-align: center;
 #our_story-section {
     display: flex;
     flex-direction: row;
@@ -202,6 +191,7 @@ nav li :active {
 
 #watch-section{
     color: darkred;
+    height: 500px;
 }
 
     
@@ -235,6 +225,7 @@ nav li :active {
 ----EXPERTISE------
 ///////////////*/
 #expertise-section {
+  position: relative;
   color: black;
   /* border: 2px solid blue; */
   margin: 5vh;
@@ -318,7 +309,7 @@ nav li :active {
   border-left-style: none;
   border-top-style: solid;
   border-bottom-style: none;
-  
+}
   
   .gridline5 {
   border: 1px solid lightgrey;
