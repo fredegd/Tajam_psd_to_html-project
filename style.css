@@ -1,5 +1,7 @@
-* {
-  margin: 0;
+
+*{
+    margin: 0; 
+    padding: 0; 
 }
 
 .top-section {
@@ -100,7 +102,6 @@ nav li :active {
   align-items: center;
   width: 70%;
 }
-
 #hero-section .text h2 {
   font-size: 1.5em;
   font-family: "Times New Roman", Times, serif;
@@ -131,6 +132,70 @@ nav li :active {
   font-size: 0.8vw;
   margin: 40px;
   width: 10%;
+
+
+
+
+#our_story-section{
+    color:green;
+    text-align: center;
+#our_story-section {
+    display: flex;
+    flex-direction: row;
+    color: grey; 
+    justify-content: space-around; 
+    margin-left: 100px;
+}
+
+#our_story-section h2 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    color: black; 
+    font-size: 20px;
+}
+
+#our_story-section img {
+    margin: 50px 10px 50px 230px;
+    width: auto; 
+    height: 190px; 
+}
+
+#our_story-text {
+    display: flex;  
+    flex-direction: column;
+    margin: 50px 20px 50px -20px;
+}
+
+#our_story-text p {
+    margin-right: 200px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+
+
+#our_story-text button { 
+    background-color: transparent; 
+    width: 130px;
+    height: 40px; 
+    margin-left: 100px;
+    text-transform: uppercase;
+    color: #44d8be; 
+    border-color: #44d8be; 
+    border-width: 1px ;
+    text-align: center;
+    border-radius: 5px; 
+    margin-top: 10px; 
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+#watch-section{
+    color: darkred;
 }
 
 .text .button:hover {
@@ -147,15 +212,31 @@ nav li :active {
   color: darkred;
 }
 
-
-
-
-#team-section {
-  color: yellowgreen;
+footer{
+    color: blueviolet;
 }
-#contact_client-section {
-  color: lightsalmon;
+#watch-section > h3 {
+    position: absolute;
+    justify-content: space-around;
+    color: white;
+    left: 860px;
+    top: 270px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
-footer {
-  color: blueviolet;
-}
+.watch {
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    top: 10px;
+    left: 10px;
+  }
+  
+.play {
+    position: absolute;
+    justify-content: space-around;
+    top: 150px;
+    left: 900px;
+    
+  }
+
