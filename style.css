@@ -3,14 +3,6 @@
     padding: 0; 
 }
 
-nav{
-    color: red;
-}
-
-#hero-section{
-    color: blue;
-    }
-
 #our_story-section {
     display: flex;
     flex-direction: row;
@@ -46,7 +38,6 @@ nav{
     font-size: 13px;
 }
 
-
 #our_story-text button { 
     background-color: transparent; 
     width: 130px;
@@ -65,20 +56,128 @@ nav{
 }
 
 
-#watch-section{
-    color: darkred;
+#footer {
+    color: white;
+    background-image: url(./images/design-assets/bgk-footer.png);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    position: relative;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0 40px 0; 
+    gap: 50px;
 }
-#expertise-section{
 
-    color: fuchsia;
+/* first block */
+
+#tajam_footer {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    width: 240px;
 }
 
-#team-section{
-    color: yellowgreen;
+#tajam_footer p {
+  line-height: 20px;
+  padding-top: 20px;
 }
-#contact_client-section{
-    color: lightsalmon
+
+#help-footer {
+    display: flex;
+    justify-content: space-between;   
+    margin-top: 60px; 
 }
-footer{
-    color: blueviolet;
+
+#help-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* second block */
+
+#our-studio {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+}
+
+#address {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    margin-top: 35px;
+    column-gap: 10px;
+}
+
+#phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    margin-top: 20px;
+    column-gap: 10px;
+}
+
+#our-studio p {
+    line-height: 20px;
+}
+
+#our-studio img {
+    width: 20px;
+    height: 25px;
+}
+
+/* third block */
+
+#stay-in-touch {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+}
+::placeholder {
+    color: grey; 
+}
+
+#footer-icons a {
+    margin: 1px; 
+}
+
+#stay-in-touch > p {
+    margin-top: 45px; 
+    margin-left: 80px;
+}
+
+#subscribe {
+    display: flex; 
+    align-items: row;
+    width: 300px;
+    height:auto; 
+    margin-bottom: 19px; 
+    margin-top: 35px;
+}
+
+#newsletter {
+    font-size: 13px;
+    background: transparent;
+    border: 1px solid;
+    border-color: grey;
+    width: 185px; 
+    height: auto; 
+    padding-left: 15px;
+
+}
+
+#subscribe > button {
+    width: 60px; 
+    margin-left: 10px;
+    padding: 5px 0 5px 0;
+    opacity: 40%;
+    border: none;
 }
