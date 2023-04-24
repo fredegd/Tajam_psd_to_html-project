@@ -18,7 +18,7 @@ justify-content: space-around;
 }
 .nav:link {
 text-decoration: none;
-}g
+}
 
 .nav-left {
 /* border: 2px solid orange; */
@@ -191,30 +191,148 @@ color: #ffffff;
   outline: none;
   cursor: pointer;
 }
-#watch-section > h3 {
-  position: absolute;
-  justify-content: space-around;
-  color: white;
-  left: 860px;
-  top: 270px;
-  font-family: Arial, Helvetica, sans-serif;
 
-}
-.watch {
+.watch-container {
+  background-image: url(images/design-assets/bgk-middle.png);
   width: 100%;
-  position: absolute;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  top: 10px;
-  left: 10px;
+  gap: 20px;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
-.play {
-  position: absolute;
-  justify-content: space-around;
-  top: 150px;
-  left: 900px;
-  
+
+/* //////////////
+----EXPERTISE------
+///////////////*/
+#expertise-section {
+  color: black;
+  /* border: 2px solid blue; */
+  margin: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
+
+.exp-title h2 {
+  color: black;
+  font-size: 1.8vw;
+}
+.exp-title p {
+  color: grey;
+  font-size: 1.5vw;
+}
+
+#expertise-section .line {
+  height: 1px;
+  width: 5%;
+  background-color: #00e0d0;
+  margin: 20px;
+}
+
+#expertise-section .grid-container {
+  /* border: 2px solid blue; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0px;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.grid-container a {
+  color: black;
+  text-decoration: none;
+}
+
+.grid-item {
+  /* border: 2px solid pink; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1;
+  font-size: 16px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.gridline1 {
+  border: 1px solid lightgrey;
+  border-right-style: solid;
+  border-left-style: none;
+  border-top-style: none;
+  border-bottom-style: solid;
+
+}
+.gridline2 {
+  border: 1px solid lightgrey;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-top-style: none;
+  border-bottom-style: solid;
+}
+
+.gridline3 {
+  border: 1px solid lightgrey;
+  border-right-style: none;
+  border-left-style: solid;
+  border-top-style: none;
+  border-bottom-style: solid;
+}
+
+.gridline4 {
+  border: 1px solid lightgrey;
+  border-right-style: solid;
+  border-left-style: none;
+  border-top-style: solid;
+  border-bottom-style: none;
+}
+  
+  .gridline5 {
+  border: 1px solid lightgrey;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-top-style: solid;
+  border-bottom-style: none;
+}
+
+.gridline6 {
+  border: 1px solid lightgrey;
+  border-right-style: none;
+  border-left-style: solid;
+  border-top-style: solid;
+  border-bottom-style: none;
+}
+
+.grid-item h4 {
+  color: black;
+  font-size: 10px;
+}
+.grid-item p {
+  /* border: 2px solid rgb(140, 49, 64); */
+  color: darkgrey;
+  margin: 10% 10%;
+  font-size: 10px;
+  line-height: 15px;
+}
+.grid-item img {
+  /* border: 2px solid olive; */
+  height: 2rem;
+  margin: 10% 10%;
+}
+
+
+/* end expertise section  */
+
+
+
 #section5{
   background-image: url("images/design-assets/bgk-header.png");
   min-height: 60vh;
