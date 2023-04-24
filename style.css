@@ -477,6 +477,8 @@ color: #ffffff;
 #footer {
   color: white;
   background-image: url(./images/design-assets/bgk-footer.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   display: flex; 
