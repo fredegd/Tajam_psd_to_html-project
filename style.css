@@ -138,7 +138,30 @@ nav li :active {
   border: 1px solid #ffffff;
   color: #ffffff;
 }
+#watch-section > h3 {
+    position: absolute;
+    justify-content: space-around;
+    color: white;
+    left: 860px;
+    top: 270px;
+    font-family: Arial, Helvetica, sans-serif;
 
+}
+.watch {
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    top: 10px;
+    left: 10px;
+  }
+  
+.play {
+    position: absolute;
+    justify-content: space-around;
+    top: 150px;
+    left: 900px;
+    
+  }
 
 #our_story-section {
     display: flex;
