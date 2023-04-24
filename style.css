@@ -480,7 +480,7 @@ color: #ffffff;
   justify-content: center;
   align-items: center;
   align-items: flex-start;
-  position: relative;
+  position: relative; 
   left: 0;
   bottom: 0;
   width: 100%;
