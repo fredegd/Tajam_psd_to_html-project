@@ -191,30 +191,20 @@ nav li :active {
     outline: none;
     cursor: pointer;
 }
-#watch-section > h3 {
-    position: absolute;
-    justify-content: space-around;
-    color: white;
-    left: 860px;
-    top: 270px;
-    font-family: Arial, Helvetica, sans-serif;
 
-}
-.watch {
+.watch-container {
+    background-image: url(images/design-assets/bgk-middle.png);
     width: 100%;
-    position: absolute;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    top: 10px;
-    left: 10px;
-  }
-  
-.play {
-    position: absolute;
-    justify-content: space-around;
-    top: 150px;
-    left: 900px;
-    
-  }
+    gap: 20px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
 #section5{
     background-image: url("images/design-assets/bgk-header.png");
     min-height: 60vh;
