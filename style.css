@@ -135,6 +135,8 @@ nav li :active {
   color: #ffffff;
 }
 
+/* our story section */
+
 #our_story-section {
     display: flex;
     flex-direction: row;
@@ -170,6 +172,7 @@ nav li :active {
     font-size: 13px;
 }
 
+
 #our_story-text button { 
     background-color: transparent; 
     width: 130px;
@@ -188,7 +191,6 @@ nav li :active {
 }
 
 
-=======
 #watch-section{
     color: darkred;
     height: 500px;
