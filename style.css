@@ -220,17 +220,18 @@ nav li :active {
 
 .exp-title h2 {
   color: black;
-  font-size: 1.8vw;
+  font-size: 20px;
+  padding-bottom: 7px;
 }
 .exp-title p {
   color: grey;
-  font-size: 1.5vw;
+  font-size: 15px;
 }
 
 #expertise-section .line {
   height: 1px;
   width: 5%;
-  background-color: #00e0d0;
+  background-color: grey;
   margin: 20px;
 }
 
@@ -372,6 +373,7 @@ nav li :active {
 }
 
 .header2 h2 {
+
   color: rgb(255, 255, 255);
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -380,6 +382,21 @@ nav li :active {
   font-family: Arial, Helvetica, sans-serif;
 }
 .btn {
+
+  
+ color: rgb(255, 255, 255);
+ text-transform: uppercase;
+ font-size: 20px;
+ padding-bottom: 7px;
+}
+.header2 p {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  
+}
+
+.btn{
+
   color: rgb(0, 255, 149);
   width: 200px;
   height: 40px;
@@ -387,7 +404,7 @@ nav li :active {
   font-family: Arial, Helvetica, sans-serif;
   justify-content: center;
   margin-left: 45%;
-  padding-top: 15px;
+  padding-top: 20px;
   border: solid 1px rgb(0, 255, 149);
   font-weight: bolder;
 }
@@ -499,6 +516,8 @@ nav li :active {
 #footer {
   color: white;
   background-image: url(./images/design-assets/bgk-footer.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   display: flex;
